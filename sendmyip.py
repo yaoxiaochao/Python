@@ -1,4 +1,5 @@
-import request
+import requests
+import re
 
 proxies = {
 	'http': 'socks5://User:Pwd@host:port'
